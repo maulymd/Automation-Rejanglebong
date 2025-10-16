@@ -12,7 +12,7 @@
 Pada intinya QA Engineer menjadi jembatan antara tim developer, produk, dan stakeholder lainnya untuk memastikan kualitas aplikasi terjaga dari awal hingga akhir. Dengan peran ini, QA Engineer bukan hanya “pencari bug”, melainkan bagian penting dalam menjaga reputasi produk dan kepuasan pengguna.
 
 # Link Spreadsheet Test Case dan Laporan hasil automation testing
-////
+[Laporan hasil Automation Testing](https://docs.google.com/spreadsheets/d/1zFXUV4MkRq_S2Q7gansSw0qK3X_tgbCHAbH4E3jA79M/edit?usp=sharing)
 
 # Automation Testing with Cypress
 
