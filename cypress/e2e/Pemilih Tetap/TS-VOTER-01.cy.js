@@ -98,14 +98,14 @@ describe("TS-VOTER-01", () => {
     cy.get('[name="pemilih_kk"]').type("abcdefghijklmnop");
     cy.get("#error_kk")
       .should("be.visible")
-      .should("have.text", "KK hanya boleh diisi dengan angka");
+      .should("have.text", "No KK hanya boleh diisi dengan angka");
   });
   it("TS-VOTER-01-005", () => {
     cy.get("#cardDataPemilih button.font-weight-bolder").click();
     cy.get('[name="pemilih_kk"]').type("!@#$%^&*()_+{}|;");
     cy.get("#error_kk")
       .should("be.visible")
-      .should("have.text", "KK hanya boleh diisi dengan angka");
+      .should("have.text", "No KK hanya boleh diisi dengan angka");
   });
   it("TS-VOTER-01-006", () => {
     cy.get("#cardDataPemilih button.font-weight-bolder").click();
@@ -122,14 +122,14 @@ describe("TS-VOTER-01", () => {
     cy.get('[name="pemilih_nik"]').type("abcdefghijklmnop");
     cy.get("#error_nik")
       .should("be.visible")
-      .should("have.text", "NIK hanya boleh diisi dengan angka");
+      .should("have.text", "No NIK hanya boleh diisi dengan angka");
   });
   it("TS-VOTER-01-008", () => {
     cy.get("#cardDataPemilih button.font-weight-bolder").click();
     cy.get('[name="pemilih_nik"]').type("!@#$%^&*()_+{}|;");
     cy.get("#error_nik")
       .should("be.visible")
-      .should("have.text", "NIK hanya boleh diisi dengan angka");
+      .should("have.text", "No NIK hanya boleh diisi dengan angka");
   });
   it("TS-VOTER-01-009", () => {
     cy.get("#cardDataPemilih button.font-weight-bolder").click();
