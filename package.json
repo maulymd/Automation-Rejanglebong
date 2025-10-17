@@ -1,7 +1,8 @@
 {
   "devDependencies": {
     "cypress": "^15.4.0",
-    "cypress-dotenv": "^3.0.1"
+    "cypress-dotenv": "^3.0.1",
+    "cypress-file-upload": "^5.0.8"
   },
   "scripts": {
     "cy:open": "cypress open"

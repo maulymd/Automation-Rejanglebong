@@ -15,8 +15,10 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import 'cypress-file-upload';
 
 Cypress.on('uncaught:exception', (err, runnable) => {
   // mencegah error JS aplikasi menghentikan test
   return false;
 });
+
